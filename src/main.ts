@@ -9,6 +9,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Recipe API') // Set the title of the API
     .setDescription('Recipe API description') // Set the description of the API
+    .addTag('recipe')
     .setVersion('0.1') // Set the version of the API
     .build(); // Build the document
 
