@@ -7,8 +7,8 @@ async function bootstrap() {
 
   // Use DocumentBuilder to create a new Swagger document configuration
   const config = new DocumentBuilder()
-    .setTitle('Test API') // Set the title of the API
-    .setDescription('Test API description') // Set the description of the API
+    .setTitle('Recipe API') // Set the title of the API
+    .setDescription('Recipe API description') // Set the description of the API
     .setVersion('0.1') // Set the version of the API
     .build(); // Build the document
 
